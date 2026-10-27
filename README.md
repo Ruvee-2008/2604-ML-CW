@@ -1,9 +1,10 @@
-#**CM2604 Machine Learning — Telco Customer Churn Prediction**
-Project Overview
+**CM2604 Machine Learning — Telco Customer Churn Prediction**
+
+**Project Overview**
 
 This project uses the Telco Customer Churn dataset to investigate whether a telecommunications customer is likely to leave the company. The task is a binary classification problem, where the target variable is Churn (Yes or No).
 
-Dataset
+**Dataset**
 
 The dataset contains 7,043 customer records and 21 columns, including customer information, services, contract details, charges, and churn status.
 
@@ -33,7 +34,7 @@ Split the dataset into 80% training data and 20% testing data, using stratificat
 
 The preprocessing pipeline is fitted on training data and then applied to test data to help avoid data leakage.
 
-Machine Learning Models
+**Machine Learning Models**
 
 The coursework requires the implementation and comparison of these classifiers:
 
@@ -43,7 +44,7 @@ Random Forest — combines predictions from multiple decision trees.
 
 Hyperparameter tuning is carried out using GridSearchCV and cross-validation. Model settings are selected based on a defined evaluation metric, with the F1-score for the churn class (Yes) used in the current tuning workflow.
 
-Evaluation Metrics
+**Evaluation Metrics**
 
 The models are evaluated using:
 
